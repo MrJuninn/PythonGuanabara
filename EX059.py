@@ -11,10 +11,8 @@ while escolha != 5:
     escolha = int(input('>>>>> Qual é a sua opção? '))
     if escolha == 1:
         print('A soma entre {} + {} é {}'.format(n1, n2, n1 + n2))
-        print('=-=='*6)
     if escolha == 2:
         print('O resultado de {} x {} é {}'.format(n1, n2, n1 * n2))
-        print('=-=='*6)
     if escolha == 3:
         if n1 > n2:
             print('Entre {} e {} o maior valor é {}'.format(n1, n2, n1))
@@ -26,6 +24,7 @@ while escolha != 5:
         n2 = int(input('Segundo Valor: '))
     if escolha not in (1,2,3,4,5):
         print('Opção invalida, Tente novamente')
+    print('=-=='*6)
 print('Finalizando...')
 sleep(2)
 print('Fim do programa! Volte sempre!')
