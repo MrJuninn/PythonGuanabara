@@ -11,3 +11,4 @@ while fatorial != 0:
     if fatorial == 1:
         print('{} = {}'.format(fatorial, fatorialc))
         fatorial -= 1
+#
