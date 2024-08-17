@@ -12,9 +12,9 @@ while (contador > 0):
     primeiro += razao
     ct += 1
     # Se chegar a 0 ele pergunta se vai querer mais termos.
-    if contador == 0:
+    if contador < 1:
         print()
         contador = int(input('Quantos termos você quer mostrar a mais? '))
-    # Se você pedir mais 0 termos ele finaliza com a contagem
+    # Se você pedir mais '0' termos ele finaliza com a contagem
     if contador == 0:
         print('Progressão realizada com {} termos mostrados'.format(ct))
