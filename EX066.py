@@ -6,4 +6,4 @@ while True:
         break
     cont += 1
     soma += n
-print(f'A soma de todos os {cont} números deu {soma}')
+print(f'A soma dos {cont} valores foi {soma}!')
