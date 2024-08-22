@@ -8,5 +8,6 @@ while True:
         print('=-' * 10)
         print(f'Você digitou o número {extenso[player]}')
         resp = str(input('Deseja continuar?[S/N] ')).strip().upper()[0]
+        print('=-' * 10)
     else:
         break
