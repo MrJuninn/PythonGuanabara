@@ -13,6 +13,8 @@ def contador(i, f, p):
             sleep(0.5)
     if f >= i:
         for c in range(i, f + p, p):
+            if c > f:
+                break
             print(f'{c} ', end='')
             sleep(0.5)
     print('FIM!')
