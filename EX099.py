@@ -1,3 +1,5 @@
+from time import sleep
+
 def maior(* nums):
     cont = mai = 0
     print('-=' * 28)
@@ -5,6 +7,7 @@ def maior(* nums):
     for c in nums:
         cont += 1
         print(f'{c} ', end='')
+        sleep(0.5)
         if c > mai:
             mai = c
     print(f'Foram informados {cont} valores ao todo.')
